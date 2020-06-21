@@ -1,0 +1,205 @@
+<resources>
+
+    <!-- General-->
+    <string name="oops">Oops..</string>
+    <string name="something_went_wrong">Something went wrong on our side.</string>
+    <string name="enjoy">Enjoy the app</string>
+    <string name="euro">€</string>
+    <string name="ok">OK</string>
+
+    <!-- Settings Fragment-->
+    <string name="cache">Cleared Cache Successfully!</string>
+    <string name="settings_name">Settings</string>
+    <string name="clear_cache">Clear cache</string>
+
+    <!-- Activity Preview Order Fragment-->
+    <string name="app_name">Scander</string>
+    <string name="scander">scander</string>
+
+
+    <!-- Dynamic Fragment-->
+    <string name="cart_empty">Cart empty, continue shopping…</string>
+
+    <!-- Activity Preview Order Fragment-->
+    <string name="your_order">Your Order</string>
+    <string name="return_to_menu">Return to menu</string>
+    <string name="order_sent">Order sent successfully!</string>
+    <string name="go_back">Home screen</string>
+    <string name="set_table">Set Table</string>
+    <string name="table_number">Table number</string>
+
+    <!-- Order Dialog Fragment-->
+    <string name="order_history">Order history</string>
+    <string name="order_dialog_price">Price:\u0020\u0020\u0020</string>
+    <string name="products">Products</string>
+
+    <!-- Wifi Dialog Fragment-->
+    <string name="wifi_password_title">Wi-fi Password</string>
+    <string name="name">Name:</string>
+    <string name="password">Password:</string>
+
+    <!-- Privacy Policy Fragment-->
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <!-- Preview Order Inner Layout Fragment-->
+    <string name="extra">Extra</string>
+    <string name="notes">Notes</string>
+    <string name="details">Details</string>
+    <string name="quantity_x">Quantity:\u0020\u0020\u0020x</string>
+    <string name="price">Price:\u0020\u0020\u0020</string>
+    <string name="remove">Delete</string>
+
+    <!-- Contact Us Fragment-->
+    <string name="full_name">Full name</string>
+    <string name="email">Email</string>
+    <string name="type_message">Type your message</string>
+    <string name="send">Send</string>
+    <string name="sent_email_successfully">Email sent successfully</string>
+
+    <!-- Terms of use Fragment-->
+    <string name="terms_of_use">Terms of use</string>
+
+    <!-- How it works Fragment-->
+    <string name="how_it_works">How it works</string>
+    <string name="scan_oder_enjoy">Scan! Order! Enjoy!</string>
+    <string name="enter_store">• Enter a Scander registered bar/cafe and sit wherever you like.</string>
+    <string name="open_scander">• Download the Scander app from your phone.</string>
+    <string name="scan_qr">• Scan the QR Code on the table and browse though the menu.</string>
+    <string name="complete_order">• Make the order through the app, without any interaction with the staff or the printed menu..</string>
+
+    <!-- What Is Scander Fragment-->
+    <string name="what_is_scander">What is Scander</string>
+    <string name="intro">• Scander is the new dine-in application for contactless orders!</string>
+    <string name="features">Scander\'s features</string>
+    <string name="contact_less_orders">• Make contactless orders</string>
+    <string name="get_wifi_password">• Get Wi-fi password</string>
+    <string name="call_waiter_on_demand">• Call waiter on demand</string>
+    <string name="find_new_places">• Find new places</string>
+    <string name="save_your_favorites">• Save your favorites places</string>
+    <string name="orders_history">• Orders history</string>
+
+    <!-- Favorite Fragment -->
+    <string name="empty_fav">It looks like you don\'t have any favorites!</string>
+    <string name="open_menu">Open menu</string>
+
+    <!-- Notification Item -->
+    <string name="accept">Accept</string>
+    <string name="capacity">Capacity:\u0020\u0020</string>
+    <string name="table">Table:\u0020\u0020</string>
+
+    <!-- Profile Fragment -->
+    <string name="place_order">Place Order</string>
+    <string name="total_amount">Total Amount: </string>
+
+    <!-- Orders Fragment -->
+    <string name="my_orders">My Orders</string>
+    <string name="empty_orders">It looks like you haven\'t completed any orders yet!</string>
+
+    <!-- About Fragment -->
+    <string name="about">About Scander</string>
+
+    <!-- Menu Item -->
+    <string name="add">ADD</string>
+    <string name="menu">Menu</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="not_available">Not available</string>
+
+    <!-- Main Activity -->
+    <string name="my_account">My Account</string>
+    <string name="about_scander">About Scander</string>
+    <string name="orders">Orders</string>
+    <string name="favorites">Favorites</string>
+    <string name="personal_data">Personal Data</string>
+    <string name="settings">Settings</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="copy_wifi">Copy</string>
+    <string name="wifi_copied">Wifi Password copied to clipboard.</string>
+    <string name="qr_not_scander">This is not a Scander QR !</string>
+    <string name="qr_no_match">This QR does not match with any entity !</string>
+
+    <!-- Home Screen Fragment -->
+    <string name="service">Service</string>
+    <string name="qr_code">Qr Code</string>
+    <string name="menu_info">To order click below button</string>
+    <string name="wifi_info">To get the Wifi Password click below button</string>
+    <string name="got_it">got it</string>
+
+    <!-- Places Fragment -->
+    <string name="places">Places</string>
+    <string name="location_permission_text">We need your permission to show your position in the map.</string>
+    <string name="place_info">Place Info</string>
+    <string name="pick_categories">Pick Categories</string>
+    <string name="no_entities">There are not any entities registered yet !</string>
+    <string name="no_categories">There are not any categories registered yet !</string>
+
+    <!-- Personal Data Fragment -->
+    <string name="gdpr">Scander team is committed to the protection of your personal data according to the new European legislation regarding Personal Data Protection (GDPR).</string>
+    <string name="consent_title">We need your consent:</string>
+    <string name="consent_text">We need to know who placed the order and were it is to be delivered. For this purpose, storing and processing of your personal data are required.</string>
+    <string name="personal_data_required">Personal data required:</string>
+    <string name="your_name">• \u0020\u0020 Your name</string>
+    <string name="your_location">• \u0020\u0020 Your location</string>
+    <string name="your_email">• \u0020\u0020 Your email</string>
+    <string name="your_mobile_phone">• \u0020\u0020 Your mobile phone</string>
+    <string name="newsletter">I want to receive newsletters and promotional activities to my contact details</string>
+    <string name="delete_account_tittle">Delete Account:</string>
+    <string name="delete_account_text">You can delete your account, but keep in mind that this action is irreversible. In case you change your mind after deleting your account, you will need to create a new account. To delete your account click the button below.</string>
+    <string name="delete_account_button">Delete Account</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- About Fragment -->
+    <string name="sign_out">Sign Out</string>
+
+    <!-- Log in Fragment -->
+    <string name="waiter_password">Password</string>
+    <string name="waiter_e_mail">E-mail</string>
+    <string name="welcome">Welcome to Scander!</string>
+    <string name="sign_in_with_google">Sign In</string>
+    <string name="skip_this_step">Skip this step</string>
+    <string name="waiter_mode_text">Waiter</string>
+    <string name="customer_mode_text">Customer</string>
+    <string name="log_in_failed">Login Failed</string>
+    <string name="invalid">Invalid Username/Password</string>
+    <string name="google_sign_in_failed">Google sign in failed</string>
+
+    <!-- Menu Activity -->
+    <string name="payment_type">Payment Type</string>
+    <string name="how_to_pay">How would you like to pay?</string>
+    <string name="pay_with_card">Card</string>
+    <string name="pay_with_cash">Cash</string>
+    <string name="message_assistance">Assistance</string>
+    <string name="message_card">Payment with Card, please bring POS</string>
+    <string name="message_cash">Payment with Cash</string>
+    <string name="call_waiter">Call waiter</string>
+    <string name="get_wifi">Get wifi</string>
+    <string name="pay">Pay</string>
+    <string name="add_to_favorites">Add to favorites</string>
+    <string name="add_to_favorites_success">Added to favorites successfully !</string>
+    <string name="notification_send">Notification sent successfully!</string>
+    <string name="error_fetching_menu">Error fetching menu</string>
+    <string name="entity_no_menu">This entity does not have a registered menu yet</string>
+
+    <!-- Profile Fragment -->
+    <string name="name_profile">Name :</string>
+    <string name="toolbar_profile">Profile</string>
+    <string name="email_profile">Email :</string>
+    <string name="phone_profile">Phone :</string>
+    <string name="welcome_profile">Welcome</string>
+
+    <!-- Notification Fragment -->
+    <string name="notifications_text">Notifications</string>
+
+    <!-- Messaging Fragment -->
+    <string name="message_title">New Message</string>
+    <string name="waiter_response">Service is coming</string>
+    <string name="order_update">Order Update</string>
+    <string name="order_accepted">Order Accepted</string>
+    <string name="order_done"> Υour order is ready</string>
+    <string name="order_canceled">Your order is canceled</string>
+
+    <!-- Spotlight -->
+    <string name="menu_instructions">Tap here to scan the QR-Code and connect with an entity.
+        You will get the menu, wifi and you can call for service or make orders !</string>
+    <string name="wifi_instructions">Tap here to scan the QR-Code and get only the Wifi of the entity.</string>
+
+</resources>
