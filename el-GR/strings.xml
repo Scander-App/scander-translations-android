@@ -1,11 +1,10 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- General-->
     <string name="oops">Ωχ..</string>
     <string name="something_went_wrong">Κάτι πήγε λάθος από την δική μας πλευρά.</string>
-    <string name="enjoy">Ευχόμαστε να απολαύσετε το Scander</string>
     <string name="euro">€</string>
-    <string name="ok">Οκ</string>
+    <string name="ok">Εντάξει</string>
 
     <!-- Settings Fragment-->
     <string name="cache">Επιτυχής εκκαθάριση της μνήμης cache!</string>
@@ -20,6 +19,8 @@
     <string name="cart_empty">Το κάλάθι σας είναι άδειο…</string>
 
     <!-- Activity Preview Order Fragment-->
+    <string name="step_1_2" tools:ignore="TypographyFractions">Βήμα 1/2</string>
+    <string name="step_2_2">Βήμα 2/2</string>
     <string name="your_order">Σύνοψη</string>
     <string name="return_to_menu">Kατάλογος</string>
     <string name="order_sent">Η παραγγελία σας στάλθηκε με επιτυχία!</string>
@@ -28,13 +29,11 @@
     <string name="table_number">Αριθμός τραπεζιού</string>
 
     <!-- Order Dialog Fragment-->
-    <string name="order_history">Ιστορικό παραγγελιών</string>
-    <string name="order_dialog_price">Τιμή:\u0020\u0020\u0020</string>
     <string name="products">Προϊόντα</string>
 
     <!-- Wifi Dialog Fragment-->
-    <string name="wifi_password_title">Κωδικός Wifi</string>
-    <string name="name">Όνομα Δικτύου:</string>
+    <string name="wifi_password_title">Wi-Fi</string>
+    <string name="name">SSID:</string>
     <string name="password">Κωδικός:</string>
 
     <!-- Privacy Policy Fragment-->
@@ -71,7 +70,7 @@
     <string name="intro">• Η νέα εφαμοργή Scander είναι γεγονός και ήρθε για να αυτοματοποιήσει τις παραγγελίες στους χώρους εστίασης!</string>
     <string name="features">Χαρακτηριστικά του Scander</string>
     <string name="contact_less_orders">• Πραγματοποιήστε ανέπαφες παραγγελίες</string>
-    <string name="get_wifi_password">• Δείτε τον κωδικό του Wifi</string>
+    <string name="get_wifi_password">• Δείτε τον κωδικό του wifi</string>
     <string name="call_waiter_on_demand">• Καλέστε επι τόπου έναν σερβιτόρο</string>
     <string name="find_new_places">• Ανακαλύψτε νέα μαγαζία</string>
     <string name="save_your_favorites">• Αποθηκέυστε τα αγαπημένα σας μέρη</string>
@@ -82,29 +81,19 @@
     <string name="open_menu">Δείτε το μενού</string>
 
     <!-- Notification Item -->
-    <string name="accept">Αποδοχή</string>
     <string name="capacity">Χωρητικότητα:\u0020\u0020</string>
-    <string name="table">Τραπέζι:\u0020\u0020</string>
-
-    <!-- Profile Fragment -->
-    <string name="place_order">Ολοκλήρωση παραγγελίας</string>
-    <string name="total_amount">Συνολικό κόστος: </string>
 
     <!-- Orders Fragment -->
-    <string name="my_orders">Οι παραγγελίες μου</string>
     <string name="empty_orders">Φαίνεται πως δεν έχετε πραγματοποιήσει ακόμα κάποια παραγγελία!</string>
 
     <!-- About Fragment -->
     <string name="about">Σχετικά με το Scander</string>
 
     <!-- Menu Item -->
-    <string name="add">Προσθήκη</string>
     <string name="menu">Κατάλογος</string>
     <string name="add_to_cart">Προσθήκη</string>
-    <string name="not_available">Μη διαθέσιμο</string>
 
     <!-- Main Activity -->
-    <string name="my_account">Ο λογοριασμός μου</string>
     <string name="about_scander">Σχετικά με το Scander</string>
     <string name="orders">Παραγγελίες</string>
     <string name="favorites">Αγαπημένα</string>
@@ -114,14 +103,6 @@
     <string name="copy_wifi">Αντιγραφή</string>
     <string name="wifi_copied">Ο κωδικός του Wifi έχει αντιγραφεί στο clipboard.</string>
     <string name="qr_not_scander">Αυτό δεν είναι QR του Scander !</string>
-    <string name="qr_no_match">Αυτό το QR δεν αντιστοιχεί σε κάποια οντότητα !</string>
-
-    <!-- Home Screen Fragment -->
-    <string name="service">Εξυπηρέτηση</string>
-    <string name="qr_code">Qr Κωδικός</string>
-    <string name="menu_info">Για να παραγείλετε πατήστε το παρακάτω κουμπί</string>
-    <string name="wifi_info">ΓΙα να δείτε τον κωδικό του Wifi πατήστε το παρακάτω κουμπί</string>
-    <string name="got_it">Το κατάλαβα</string>
 
     <!-- Places Framgnent -->
     <string name="places">Μέρη</string>
@@ -130,6 +111,7 @@
     <string name="pick_categories">Διάλεξε Κατηγορίες</string>
     <string name="no_entities">Δεν υπάρχουν ακόμα καταγεγραμμένα μέρη!</string>
     <string name="no_categories">Δεν υπάρχουν ακόμα καταγεγραμμένες κατηγορίες!</string>
+    <string name="more_info">Πληροφορίες</string>
 
     <!-- Personal Data Fragment -->
     <string name="gdpr">Η ομάδα του Scander δεσμέυεται για την προστασία των προσωπικών σας δεδομένων σύμφωνα με τη Ευρωπαϊκή νομοθεσία σχετικά με την προστασία των προσωπικών δεδομένων (GDPR).</string>
@@ -144,7 +126,6 @@
     <string name="delete_account_tittle">Διαγραφή Λογαριασμού:</string>
     <string name="delete_account_text">Η διαγραφή του λογαριασμού σας είναι μη αναστρέψιμη. Σε περίπτωση που αλλάξετε γνώμη θα πρέπει να δημιουργήσετε έναν νέο λογαριασμό. Για να διαγράψετε τον λογαριασμό σας πατήστε το παρακάτω κουμπί.</string>
     <string name="delete_account_button">Διαγραφή Λογαριασμού</string>
-    <string name="title_activity_settings">Ρυθμίσεις</string>
 
     <!-- About Fragment -->
     <string name="sign_out">Αποσύνδεση</string>
@@ -154,16 +135,16 @@
     <string name="waiter_e_mail">E-mail</string>
     <string name="welcome">Καλωσήρθατε στο Scander!</string>
     <string name="sign_in_with_google">Σύνδεση</string>
-    <string name="skip_this_step">Παράβλεψη</string>
     <string name="waiter_mode_text">Σερβιτόρος</string>
     <string name="customer_mode_text">Πελάτης</string>
     <string name="log_in_failed">Αποτυχία Σύνδεσης</string>
     <string name="invalid">Λάθος αναγνωστικό χρήστη/κωδικού</string>
     <string name="google_sign_in_failed">Η Σύνδεση με το λογαριασμός σας απέτυχε</string>
+    <string name="terms">Συμφωνώ με τους όρους &amp; τις προϋποθέσεις του Scander</string>
+    <string name="valid_credentials">Παρακαλώ συμπληρώστε σωστά όνομα χρήστη/κωδικό</string>
+    <string name="accept_terms">Πρέπει πρώτα να αποδεχτείτε τους όρους χρήσης</string>
 
     <!-- Menu Activity -->
-    <string name="payment_type">Τρόπος πληρωμής</string>
-    <string name="how_to_pay">Πώς θα θέλατε να πληρώσετε ;</string>
     <string name="pay_with_card">Κάρτα</string>
     <string name="pay_with_cash">Μετρητά</string>
     <string name="message_assistance">Κλήση</string>
@@ -172,18 +153,16 @@
     <string name="call_waiter">Κλήση σερβιτόρου</string>
     <string name="get_wifi">Δες τον κωδικό του wifi</string>
     <string name="pay">Πληρωμή</string>
-    <string name="add_to_favorites">Προσθήκη στα αγαπημένα</string>
     <string name="add_to_favorites_success">Έγινε προσθήκη στα αγαπημένα !</string>
     <string name="notification_send">Ειδοποίηση εστάλη!</string>
     <string name="error_fetching_menu">Σφάλμα στην φόρτωση του καταλόγου</string>
     <string name="entity_no_menu">Αυτή η οντότητα δεν έχει κατάλογο</string>
 
     <!-- Profile Fragment -->
-    <string name="name_profile">Όνομα :</string>
-    <string name="toolbar_profile">Λογαριασμός</string>
-    <string name="email_profile">Email :</string>
-    <string name="phone_profile">Τηλέφωνο :</string>
-    <string name="welcome_profile">Καλωσήρθατε</string>
+    <string name="name_profile">Όνομα</string>
+    <string name="email_profile">Email</string>
+    <string name="phone_profile">Τηλέφωνο</string>
+    <string name="my_account">Ο λογαριασμός μου</string>
 
     <!-- Notification Fragment -->
     <string name="notifications_text">Ειδοποιήσεις</string>
@@ -196,9 +175,27 @@
     <string name="order_done">Η παρραγελία σας είναι έτοιμη</string>
     <string name="order_canceled">Η παραγγελία σας ακυρώθηκε</string>
 
-    <!-- Spotlight -->
-    <string name="menu_instructions">Πάτα εδώ για να σκανάρεις ένα QR-Code και να συνδεθείς με μια οντότητα.
-        Εκεί θα έχεις πρόσβαση στο μενού, στο Wifi, και θα μπορείς να κάνεις παραγγελίες και να καλείς σερβιτόρους !</string>
-    <string name="wifi_instructions">Πάτα εδώ για να σκανάρεις ένα QR-Code και να πάρεις μόνο το Wifi μιας οντότητας</string>
+    <!-- Main Actions -->
+    <string name="view_catalog">Δες τον κατάλογο</string>
+    <string name="view_live_orders">Τρέχουσες παραγγελίες</string>
+    <string name="disconnect">Αποσύνδεση</string>
+
+    <!-- Order dialog -->
+    <string name="cart">Καλάθι</string>
+    <string name="order_total">Σύνολο πληρωμής</string>
+    <string name="not_paid">Εκρεμεί πληρωμή</string>
+    <string name="pending">Σε αναμονή</string>
+    <string name="processing">Σε επεξεργασία</string>
+    <string name="done">Ολοκληρωμένη</string>
+
+    <!-- Notification -->
+    <string name="paid">Πληρωμένη</string>
+    <string name="accept">Αποδοχή</string>
+
+    <!-- Payment Dialog -->
+    <string name="choose_payment">Διάλεξε τρόπο πληρωμής</string>
+
+    <!-- Home Fragment -->
+    <string name="connect">Σκάναρε για σύνδεση</string>
 
 </resources>

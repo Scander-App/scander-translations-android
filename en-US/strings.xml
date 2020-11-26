@@ -1,9 +1,8 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- General-->
     <string name="oops">Oops..</string>
     <string name="something_went_wrong">Something went wrong on our side.</string>
-    <string name="enjoy">Enjoy the app</string>
     <string name="euro">€</string>
     <string name="ok">OK</string>
 
@@ -16,11 +15,12 @@
     <string name="app_name">Scander</string>
     <string name="scander">scander</string>
 
-
     <!-- Dynamic Fragment-->
     <string name="cart_empty">Cart empty, continue shopping…</string>
 
     <!-- Activity Preview Order Fragment-->
+    <string name="step_1_2" tools:ignore="TypographyFractions">Step 1/2</string>
+    <string name="step_2_2">Step 2/2</string>
     <string name="your_order">Your Order</string>
     <string name="return_to_menu">Return to menu</string>
     <string name="order_sent">Order sent successfully!</string>
@@ -29,13 +29,11 @@
     <string name="table_number">Table number</string>
 
     <!-- Order Dialog Fragment-->
-    <string name="order_history">Order history</string>
-    <string name="order_dialog_price">Price:\u0020\u0020\u0020</string>
     <string name="products">Products</string>
 
     <!-- Wifi Dialog Fragment-->
-    <string name="wifi_password_title">Wi-fi Password</string>
-    <string name="name">Name:</string>
+    <string name="wifi_password_title">Wi-Fi</string>
+    <string name="name">SSID:</string>
     <string name="password">Password:</string>
 
     <!-- Privacy Policy Fragment-->
@@ -72,7 +70,7 @@
     <string name="intro">• Scander is the new dine-in application for contactless orders!</string>
     <string name="features">Scander\'s features</string>
     <string name="contact_less_orders">• Make contactless orders</string>
-    <string name="get_wifi_password">• Get Wi-fi password</string>
+    <string name="get_wifi_password">• Get wifi password</string>
     <string name="call_waiter_on_demand">• Call waiter on demand</string>
     <string name="find_new_places">• Find new places</string>
     <string name="save_your_favorites">• Save your favorites places</string>
@@ -83,29 +81,19 @@
     <string name="open_menu">Open menu</string>
 
     <!-- Notification Item -->
-    <string name="accept">Accept</string>
     <string name="capacity">Capacity:\u0020\u0020</string>
-    <string name="table">Table:\u0020\u0020</string>
-
-    <!-- Profile Fragment -->
-    <string name="place_order">Place Order</string>
-    <string name="total_amount">Total Amount: </string>
 
     <!-- Orders Fragment -->
-    <string name="my_orders">My Orders</string>
     <string name="empty_orders">It looks like you haven\'t completed any orders yet!</string>
 
     <!-- About Fragment -->
     <string name="about">About Scander</string>
 
     <!-- Menu Item -->
-    <string name="add">ADD</string>
     <string name="menu">Menu</string>
     <string name="add_to_cart">Add to cart</string>
-    <string name="not_available">Not available</string>
 
     <!-- Main Activity -->
-    <string name="my_account">My Account</string>
     <string name="about_scander">About Scander</string>
     <string name="orders">Orders</string>
     <string name="favorites">Favorites</string>
@@ -115,14 +103,6 @@
     <string name="copy_wifi">Copy</string>
     <string name="wifi_copied">Wifi Password copied to clipboard.</string>
     <string name="qr_not_scander">This is not a Scander QR !</string>
-    <string name="qr_no_match">This QR does not match with any entity !</string>
-
-    <!-- Home Screen Fragment -->
-    <string name="service">Service</string>
-    <string name="qr_code">Qr Code</string>
-    <string name="menu_info">To order click below button</string>
-    <string name="wifi_info">To get the Wifi Password click below button</string>
-    <string name="got_it">got it</string>
 
     <!-- Places Fragment -->
     <string name="places">Places</string>
@@ -131,6 +111,7 @@
     <string name="pick_categories">Pick Categories</string>
     <string name="no_entities">There are not any entities registered yet !</string>
     <string name="no_categories">There are not any categories registered yet !</string>
+    <string name="more_info">More info</string>
 
     <!-- Personal Data Fragment -->
     <string name="gdpr">Scander team is committed to the protection of your personal data according to the new European legislation regarding Personal Data Protection (GDPR).</string>
@@ -145,7 +126,6 @@
     <string name="delete_account_tittle">Delete Account:</string>
     <string name="delete_account_text">You can delete your account, but keep in mind that this action is irreversible. In case you change your mind after deleting your account, you will need to create a new account. To delete your account click the button below.</string>
     <string name="delete_account_button">Delete Account</string>
-    <string name="title_activity_settings">Settings</string>
 
     <!-- About Fragment -->
     <string name="sign_out">Sign Out</string>
@@ -155,16 +135,16 @@
     <string name="waiter_e_mail">E-mail</string>
     <string name="welcome">Welcome to Scander!</string>
     <string name="sign_in_with_google">Sign In</string>
-    <string name="skip_this_step">Skip this step</string>
     <string name="waiter_mode_text">Waiter</string>
     <string name="customer_mode_text">Customer</string>
     <string name="log_in_failed">Login Failed</string>
     <string name="invalid">Invalid Username/Password</string>
     <string name="google_sign_in_failed">Google sign in failed</string>
+    <string name="terms">I agree to Scander\'s Terms &amp; Conditions</string>
+    <string name="valid_credentials">Please enter a valid username/Password</string>
+    <string name="accept_terms">You must first accept our terms and conditions</string>
 
     <!-- Menu Activity -->
-    <string name="payment_type">Payment Type</string>
-    <string name="how_to_pay">How would you like to pay?</string>
     <string name="pay_with_card">Card</string>
     <string name="pay_with_cash">Cash</string>
     <string name="message_assistance">Assistance</string>
@@ -173,18 +153,16 @@
     <string name="call_waiter">Call waiter</string>
     <string name="get_wifi">Get wifi</string>
     <string name="pay">Pay</string>
-    <string name="add_to_favorites">Add to favorites</string>
     <string name="add_to_favorites_success">Added to favorites successfully !</string>
     <string name="notification_send">Notification sent successfully!</string>
     <string name="error_fetching_menu">Error fetching menu</string>
     <string name="entity_no_menu">This entity does not have a registered menu yet</string>
 
     <!-- Profile Fragment -->
-    <string name="name_profile">Name :</string>
-    <string name="toolbar_profile">Profile</string>
-    <string name="email_profile">Email :</string>
-    <string name="phone_profile">Phone :</string>
-    <string name="welcome_profile">Welcome</string>
+    <string name="name_profile">Name</string>
+    <string name="email_profile">Email</string>
+    <string name="phone_profile">Phone</string>
+    <string name="my_account">My account</string>
 
     <!-- Notification Fragment -->
     <string name="notifications_text">Notifications</string>
@@ -197,9 +175,27 @@
     <string name="order_done"> Υour order is ready</string>
     <string name="order_canceled">Your order is canceled</string>
 
-    <!-- Spotlight -->
-    <string name="menu_instructions">Tap here to scan the QR-Code and connect with an entity.
-        You will get the menu, wifi and you can call for service or make orders !</string>
-    <string name="wifi_instructions">Tap here to scan the QR-Code and get only the Wifi of the entity.</string>
+    <!-- Main Actions -->
+    <string name="view_catalog">View Catalog</string>
+    <string name="view_live_orders">Live orders</string>
+    <string name="disconnect">Disconnect</string>
+
+    <!-- Order dialog -->
+    <string name="cart">Cart</string>
+    <string name="order_total">Order total</string>
+    <string name="not_paid">Not paid</string>
+    <string name="pending">Pending</string>
+    <string name="processing">Processing</string>
+    <string name="done">Done</string>
+
+    <!-- Notification -->
+    <string name="paid">Paid</string>
+    <string name="accept">Accept</string>
+
+    <!-- Payment Dialog -->
+    <string name="choose_payment">Choose payment method</string>
+
+    <!-- Home Fragment -->
+    <string name="connect">Scan to connect</string>
 
 </resources>
