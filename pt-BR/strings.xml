@@ -1,0 +1,201 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- General-->
+    <string name="oops">Oops..</string>
+    <string name="something_went_wrong">Algo deu errado do nosso lado.</string>
+    <string name="euro">€</string>
+    <string name="ok">OK</string>
+
+    <!-- Settings Fragment-->
+    <string name="cache">Cache limpo com sucesso!</string>
+    <string name="settings_name">Configurações</string>
+    <string name="clear_cache">Limpar cache</string>
+
+    <!-- Activity Preview Order Fragment-->
+    <string name="app_name">Scander</string>
+    <string name="scander">scander</string>
+
+    <!-- Dynamic Fragment-->
+    <string name="cart_empty">Carrinho vazio, continue comprando…</string>
+
+    <!-- Activity Preview Order Fragment-->
+    <string name="step_1_2" tools:ignore="TypographyFractions">Etapa 1/2</string>
+    <string name="step_2_2">Etapa 2/2</string>
+    <string name="your_order">Seu Pedido</string>
+    <string name="return_to_menu">Retornar ao cardápio</string>
+    <string name="order_sent">Pedido realizado com sucesso!</string>
+    <string name="go_back">Página inicial</string>
+    <string name="set_table">Escolher Mesa</string>
+    <string name="table_number">Número da mesa</string>
+
+    <!-- Order Dialog Fragment-->
+    <string name="products">Produtos</string>
+
+    <!-- Wifi Dialog Fragment-->
+    <string name="wifi_password_title">Wi-Fi</string>
+    <string name="name">SSID:</string>
+    <string name="password">Senha:</string>
+
+    <!-- Privacy Policy Fragment-->
+    <string name="privacy_policy">Política de Privacidade</string>
+
+    <!-- Preview Order Inner Layout Fragment-->
+    <string name="extra">Extras</string>
+    <string name="notes">Notas</string>
+    <string name="details">Detalhes</string>
+    <string name="quantity_x">Quantidade:\u0020\u0020\u0020x</string>
+    <string name="price">Preço:\u0020\u0020\u0020</string>
+    <string name="remove">Remover</string>
+
+    <!-- Contact Us Fragment-->
+    <string name="full_name">Nome completo</string>
+    <string name="email">Email</string>
+    <string name="type_message">Digite sua mensagem</string>
+    <string name="send">Enviar</string>
+    <string name="sent_email_successfully">Email enviado com sucesso</string>
+
+    <!-- Terms of use Fragment-->
+    <string name="terms_of_use">Termos de uso</string>
+
+    <!-- How it works Fragment-->
+    <string name="how_it_works">Como funciona</string>
+    <string name="scan_oder_enjoy">Escaneie! Peça! Aproveite!</string>
+    <string name="enter_store">• Entre em um bar/café registrado no Scander e sente-se onde quiser.</string>
+    <string name="open_scander">• Baixe o aplicativo Scander no seu telefone.</string>
+    <string name="scan_qr">• Escaneie o QR Code na mesa e navegue pelo cardápio.</string>
+    <string name="complete_order">• Faça o pedido pelo app, sem nenhuma interação com os funcionários ou com o cardápio impresso..</string>
+
+    <!-- What Is Scander Fragment-->
+    <string name="what_is_scander">O que é o Scander</string>
+    <string name="intro">• Scander é o novo aplicativopara pedidos de refeições sem contato!</string>
+    <string name="features">Recursos do Scander</string>
+    <string name="contact_less_orders">• Faça pedidos sem contato</string>
+    <string name="get_wifi_password">• Obtenha a senha do wifi</string>
+    <string name="call_waiter_on_demand">• Chame o atendente quando necessário</string>
+    <string name="find_new_places">• Encontre novos locais</string>
+    <string name="save_your_favorites">• Salve seus locais favoritos</string>
+    <string name="orders_history">• Histórico de pedidos</string>
+
+    <!-- Favorite Fragment -->
+    <string name="empty_fav">Parece que você não possui nenhum favorito!</string>
+    <string name="open_menu">Abrir cardápio</string>
+
+    <!-- Notification Item -->
+    <string name="capacity">Capacidade:\u0020\u0020</string>
+
+    <!-- Orders Fragment -->
+    <string name="empty_orders">Parece que você ainda não realizou nenhum pedido!</string>
+
+    <!-- About Fragment -->
+    <string name="about">Sobre o Scander</string>
+
+    <!-- Menu Item -->
+    <string name="menu">Cardápio</string>
+    <string name="add_to_cart">Adicionar ao carrinho</string>
+
+    <!-- Main Activity -->
+    <string name="about_scander">Sobre o Scander</string>
+    <string name="orders">Pedidos</string>
+    <string name="favorites">Favoritos</string>
+    <string name="personal_data">Dados Pessoais</string>
+    <string name="settings">Configurações</string>
+    <string name="contact_us">Contato</string>
+    <string name="copy_wifi">Copiar</string>
+    <string name="wifi_copied">Senha Wifi copiada para a área de transferência.</string>
+    <string name="qr_not_scander">Este não é um QR code do Scander !</string>
+
+    <!-- Places Fragment -->
+    <string name="places">Locais</string>
+    <string name="location_permission_text">Precisamos da sua permissão para exibir sua localização no mapa.</string>
+    <string name="place_info">Informações do Local</string>
+    <string name="pick_categories">Escolha categorias</string>
+    <string name="no_entities">Ainda não existem unidades cadastradas!</string>
+    <string name="no_categories">Ainda não existem categorias cadastradas!</string>
+    <string name="more_info">Mais informações</string>
+
+    <!-- Personal Data Fragment -->
+    <string name="gdpr">A equipe do Scander está empenhada em proteger os seus dados pessoais de acordo com a nova legislação europeia relativa à proteção de dados pessoais (GDPR).</string>
+    <string name="consent_title">Precisamos do seu consetimento:</string>
+    <string name="consent_text">Precisamos saber quem fez o pedido e onde ele deve ser entregue. Para tanto, é necessário armazenar e processar seus dados pessoais.</string>
+    <string name="personal_data_required">Dados pessoais necessários:</string>
+    <string name="your_name">• \u0020\u0020 Seu nome</string>
+    <string name="your_location">• \u0020\u0020 Seu local</string>
+    <string name="your_email">• \u0020\u0020 Seu email</string>
+    <string name="your_mobile_phone">• \u0020\u0020 Seu número de telefone</string>
+    <string name="newsletter">Desejo receber newsletters e promoções em minhas opções de contato</string>
+    <string name="delete_account_tittle">Excluir Conta:</string>
+    <string name="delete_account_text">Você pode excluir sua conta, mas lembre-se de que essa ação é irreversível. Caso mude de ideia após excluir sua conta, você precisará criar uma nova conta. Para excluir sua conta, clique no botão abaixo. </string>
+    <string name="delete_account_button">Excluir Conta</string>
+
+    <!-- About Fragment -->
+    <string name="sign_out">Sair</string>
+
+    <!-- Log in Fragment -->
+    <string name="waiter_password">Senha</string>
+    <string name="waiter_e_mail">E-mail</string>
+    <string name="welcome">Bem vindo ao Scander!</string>
+    <string name="sign_in_with_google">Entrar</string>
+    <string name="waiter_mode_text">Atendente</string>
+    <string name="customer_mode_text">Cliente</string>
+    <string name="log_in_failed">Falha no Login</string>
+    <string name="invalid">Usuário/Senha inválidos</string>
+    <string name="google_sign_in_failed">Falha no login com Google</string>
+    <string name="terms">Concordo com os Termos &amp; Condições do Scander</string>
+    <string name="valid_credentials">Por favor insira um nome de usuário/senha válidos</string>
+    <string name="accept_terms">Você precisa aceitar os nossos termos e condições primeiro</string>
+
+    <!-- Menu Activity -->
+    <string name="pay_with_card">Cartão</string>
+    <string name="pay_with_cash">Dinheiro</string>
+    <string name="message_assistance">Assistência</string>
+    <string name="message_card">Pagamento com Cartão, por favor traga o POS</string>
+    <string name="message_cash">Pagamento com dinheiro</string>
+    <string name="call_waiter">Chamar atendente</string>
+    <string name="get_wifi">Obter wifi</string>
+    <string name="pay">Pagar</string>
+    <string name="add_to_favorites_success">Adicionado aos favoritos com sucesso !</string>
+    <string name="notification_send">Notificação enviada com sucesso!</string>
+    <string name="error_fetching_menu">Erro ao buscar o menu</string>
+    <string name="entity_no_menu">Este local ainda não possui um cardápio registrado</string>
+
+    <!-- Profile Fragment -->
+    <string name="name_profile">Nome</string>
+    <string name="email_profile">Email</string>
+    <string name="phone_profile">Telefone</string>
+    <string name="my_account">Minha conta</string>
+
+    <!-- Notification Fragment -->
+    <string name="notifications_text">Notificações</string>
+
+    <!-- Messaging Fragment -->
+    <string name="message_title">Nova Mensagem</string>
+    <string name="waiter_response">O atendeimento será realizado em breve</string>
+    <string name="order_update">Atualização do pedido</string>
+    <string name="order_accepted">Pedido Aceito</string>
+    <string name="order_done"> Seu pedido está pronto</string>
+    <string name="order_canceled">Seu pedido foi cancelado</string>
+
+    <!-- Main Actions -->
+    <string name="view_catalog">Ver cardápio</string>
+    <string name="view_live_orders">Pedidos ativos</string>
+    <string name="disconnect">Desconectar</string>
+
+    <!-- Order dialog -->
+    <string name="cart">Carrinho</string>
+    <string name="order_total">Total do pedido</string>
+    <string name="not_paid">Não pago</string>
+    <string name="pending">Pendente</string>
+    <string name="processing">Processando</string>
+    <string name="done">Concluído</string>
+
+    <!-- Notification -->
+    <string name="paid">Pago</string>
+    <string name="accept">Aceitar</string>
+
+    <!-- Payment Dialog -->
+    <string name="choose_payment">Escolha o método de pagamento</string>
+
+    <!-- Home Fragment -->
+    <string name="connect">Escaneie para conectar</string>
+
+</resources>
